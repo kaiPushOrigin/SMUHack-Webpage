@@ -39,7 +39,7 @@ ul#countdown span{
 	font-size: 3em;
 	font-weight: bold;
 	height: 110px;
-	line-height: 110px; 
+	line-height: 110px;
 }
 
 p.timeRefDays, p.timeRefHours, p.timeRefMinutes, p.timeRefSeconds {
@@ -80,4 +80,3 @@ ul#countdown p{
   margin-left: auto;
   margin-right: auto;
 }
-
