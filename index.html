@@ -30,20 +30,26 @@
       <script src="js/countdown.js"></script>
       <script type="text/javascript">
 
-      $(document).ready(function() {
+	      $(document).ready(function() {
 
-      	$("#countdown").countdown({
-      		date: "1 April 2016 12:00:00",
-          format: "on" //two digits instead of one
-      },
+	      	$("#countdown").countdown({
+	      		date: "1 April 2016 12:00:00",
+	          format: "on" //two digits instead of one
+	      },
 
-      function() {
-          //callback function
-      });
-      });
+	      function() {
+	          //callback function
+	      });
+	      });
+      </script>
+
+	  <script src="js/wow.min.js"></script>
+	  <script>
+        	new WOW().init();
       </script>
 
       <!-- Custom styles for this template -->
+	  <link href="stylesheets/animate.css" rel="stylesheet">
       <link href="stylesheets/master.css" rel="stylesheet">
       <link href="stylesheets/signin.css" rel="stylesheet">
 
@@ -107,7 +113,7 @@
 
 		<div class="container">
 
-			<div class="row featurette" id="hackathon">
+			<div class="row featurette wow animated fadeIn" data-wow-duration="2s" id="hackathon">
 				<div class="col-md-7">
 					<h2 class="featurette-heading">
 						<br>Cognitive Thinking and Data Analysis Challenge!
@@ -259,7 +265,7 @@
 			</div> <!-- row featurette-->
 
 			<hr class="featurette-divider" id="categories">
-			<div class="row featurette">
+			<div class="row featurette  wow animated fadeIn" data-wow-duration="2s">
 				<div class="col-md-7">
 					<h2 class="featurette-heading"><br>Are You Ready? </h2>
 					    <p class="lead">
@@ -319,7 +325,7 @@
 
 			<hr class="featurette-divider" id="social">
 
-			<div class="row featurette">
+			<div class="row featurette wow animated fadeIn" data-wow-duration="2s">
 				<div class="col-md-7">
 					<h2 class="featurette-heading"><br>Go Social<span class="text-muted"> or Go Home!</span></h2>
 					<p class="lead"><br>Spread the word. <br><br>Lets go social and get this going viral!<br> <br>
@@ -341,7 +347,7 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row wow animated fadeIn" data-wow-duration="2s">
 				<div class="col-md-3">
 					<a href="http://www-935.ibm.com/services/us/gbs/consulting/" target="_blank"><img class="supporters"
 						src="img/IBM_supporter.svg"  alt="IBM GBS" width="50%"/></a><br><br><br>
@@ -369,7 +375,7 @@
 
 
 		</div> <!-- container-->
-			<div id="footer">
+			<div id="footer wow animated fadeIn" data-wow-duration="2s">
 				<div class="container">
 					<p>
 						&copy; Saint Mary's University, IBM 2016 &nbsp;&nbsp;&nbsp;
